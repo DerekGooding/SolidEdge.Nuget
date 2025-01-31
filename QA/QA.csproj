@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Interop.SolidEdge\Interop.SolidEdge.csproj" />
+    <ProjectReference Include="..\SolidEdge.Community\SolidEdge.Community.csproj" />
+  </ItemGroup>
+</Project>
