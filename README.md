@@ -13,3 +13,11 @@ Into a single, easy to import NugetPackage.
 This is not my original work. Please follow the fork for the original Author. I only updated it to use current frameworks. 
 I use this myself so I'll be keeping it up to date with newer versions of .Net over the years. 
 
+```bash
+dotnet add package SolidEdge.Community.Net9
+```
+Or via the NuGet Package Manager:
+
+```bash
+Install-Package SolidEdge.Community.Net9
+```
