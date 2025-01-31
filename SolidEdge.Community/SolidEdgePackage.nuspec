@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
 	<metadata>
-		<id>Your.Package.Name</id>
+		<id>SolidEdge.Community.Net9</id>
 		<version>1.0.0</version>
-		<authors>Your Name</authors>
-		<description>Some fancy description.</description>
+		<authors>Derek Gooding</authors>
+		<description>Combines the Community dlls into a single nuget for ease of use.</description>
+		<license type="expression">MIT</license>
+		<readme>README.md</readme>
 	</metadata>
 	<files>
 		<file src="bin\Release\net8.0-windows\Interop.SolidEdge.dll" target="lib/net8.0/" />
@@ -21,5 +23,7 @@
 		<file src="bin\Release\net8.0-windows\Interop.SolidEdgeFrameworkSupport.dll" target="lib/net8.0/" />
 		<file src="bin\Release\net8.0-windows\Interop.SolidEdgeGeometry.dll" target="lib/net8.0/" />
 		<file src="bin\Release\net8.0-windows\Interop.SolidEdgePart.dll" target="lib/net8.0/" />
+
+		<file src="README.md" target="README.md" />
 	</files>
 </package>
