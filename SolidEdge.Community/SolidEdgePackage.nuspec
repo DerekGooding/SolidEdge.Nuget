@@ -2,16 +2,16 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
 	<metadata>
 		<id>SolidEdge.Community.Net9</id>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<authors>Derek Gooding</authors>
 		<description>Combines the Community dlls into a single nuget for ease of use.</description>
 		<license type="expression">MIT</license>
 		<readme>README.md</readme>
 	</metadata>
 	<files>
+		<!-- .NET 8 -->
 		<file src="bin\Release\net8.0-windows\Interop.SolidEdge.dll" target="lib/net8.0/" />
 		<file src="bin\Release\net8.0-windows\SolidEdge.Community.dll" target="lib/net8.0/" />
-
 		<file src="bin\Release\net8.0-windows\Interop.DesignManager.dll" target="lib/net8.0/" />
 		<file src="bin\Release\net8.0-windows\Interop.RevisionManager.dll" target="lib/net8.0/" />
 		<file src="bin\Release\net8.0-windows\Interop.SEInstallDataLib.dll" target="lib/net8.0/" />
@@ -24,6 +24,22 @@
 		<file src="bin\Release\net8.0-windows\Interop.SolidEdgeGeometry.dll" target="lib/net8.0/" />
 		<file src="bin\Release\net8.0-windows\Interop.SolidEdgePart.dll" target="lib/net8.0/" />
 
+		<!-- .NET 9 -->
+		<file src="bin\Release\net9.0-windows\Interop.SolidEdge.dll" target="lib/net9.0/" />
+		<file src="bin\Release\net9.0-windows\SolidEdge.Community.dll" target="lib/net9.0/" />
+		<file src="bin\Release\net9.0-windows\Interop.DesignManager.dll" target="lib/net9.0/" />
+		<file src="bin\Release\net9.0-windows\Interop.RevisionManager.dll" target="lib/net9.0/" />
+		<file src="bin\Release\net9.0-windows\Interop.SEInstallDataLib.dll" target="lib/net9.0/" />
+		<file src="bin\Release\net9.0-windows\Interop.SolidEdgeAssembly.dll" target="lib/net9.0/" />
+		<file src="bin\Release\net9.0-windows\Interop.SolidEdgeConstants.dll" target="lib/net9.0/" />
+		<file src="bin\Release\net9.0-windows\Interop.SolidEdgeDraft.dll" target="lib/net9.0/" />
+		<file src="bin\Release\net9.0-windows\Interop.SolidEdgeFileProperties.dll" target="lib/net9.0/" />
+		<file src="bin\Release\net9.0-windows\Interop.SolidEdgeFramework.dll" target="lib/net9.0/" />
+		<file src="bin\Release\net9.0-windows\Interop.SolidEdgeFrameworkSupport.dll" target="lib/net9.0/" />
+		<file src="bin\Release\net9.0-windows\Interop.SolidEdgeGeometry.dll" target="lib/net9.0/" />
+		<file src="bin\Release\net9.0-windows\Interop.SolidEdgePart.dll" target="lib/net9.0/" />
+
+		<!-- Readme -->
 		<file src="README.md" target="README.md" />
 	</files>
 </package>
