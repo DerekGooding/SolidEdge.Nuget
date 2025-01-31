@@ -23,6 +23,99 @@
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|NET45|AnyCPU'">
     <DocumentationFile>bin\Release\net45\SolidEdge.Community.xml</DocumentationFile>
   </PropertyGroup>
+
+	<ItemGroup>
+		<COMReference Include="SolidEdgeAssembly.dll">
+			<Guid>3e2b3bd4-f0b9-11d1-bdfd-080036b4d502</Guid>
+			<VersionMajor>1</VersionMajor>
+			<VersionMinor>0</VersionMinor>
+			<WrapperTool>tlbimp</WrapperTool>
+			<Lcid>0</Lcid>
+			<Isolated>false</Isolated>
+		</COMReference>
+		<COMReference Include="SolidEdgeConstants.dll">
+			<Guid>c467a6f5-27ed-11d2-be30-080036b4d502</Guid>
+			<VersionMajor>1</VersionMajor>
+			<VersionMinor>0</VersionMinor>
+			<WrapperTool>tlbimp</WrapperTool>
+			<Lcid>0</Lcid>
+			<Isolated>false</Isolated>
+		</COMReference>
+		<COMReference Include="SolidEdgeDraft.dll">
+			<Guid>3e2b3bdc-f0b9-11d1-bdfd-080036b4d502</Guid>
+			<VersionMajor>1</VersionMajor>
+			<VersionMinor>0</VersionMinor>
+			<WrapperTool>tlbimp</WrapperTool>
+			<Lcid>0</Lcid>
+			<Isolated>false</Isolated>
+		</COMReference>
+		<COMReference Include="SolidEdgeFileProperties.dll">
+			<Guid>aed8fe52-3129-11d1-bc83-0800360e1e02</Guid>
+			<VersionMajor>1</VersionMajor>
+			<VersionMinor>0</VersionMinor>
+			<WrapperTool>tlbimp</WrapperTool>
+			<Lcid>0</Lcid>
+			<Isolated>false</Isolated>
+		</COMReference>
+		<COMReference Include="SolidEdgeFrameworkSupport.dll">
+			<Guid>943ac5c6-f4db-11d1-be00-080036b4d502</Guid>
+			<VersionMajor>1</VersionMajor>
+			<VersionMinor>0</VersionMinor>
+			<WrapperTool>tlbimp</WrapperTool>
+			<Lcid>0</Lcid>
+			<Isolated>false</Isolated>
+		</COMReference>
+		<COMReference Include="SolidEdgeFramework.dll">
+			<Guid>8a7efa3a-f000-11d1-bdfc-080036b4d502</Guid>
+			<VersionMajor>1</VersionMajor>
+			<VersionMinor>0</VersionMinor>
+			<WrapperTool>tlbimp</WrapperTool>
+			<Lcid>0</Lcid>
+			<Isolated>false</Isolated>
+		</COMReference>
+		<COMReference Include="SolidEdgeGeometry.dll">
+			<Guid>3e2b3be1-f0b9-11d1-bdfd-080036b4d502</Guid>
+			<VersionMajor>1</VersionMajor>
+			<VersionMinor>0</VersionMinor>
+			<WrapperTool>tlbimp</WrapperTool>
+			<Lcid>0</Lcid>
+			<Isolated>false</Isolated>
+		</COMReference>
+		<COMReference Include="SEInstallDataLib.dll">
+			<Guid>42e04299-18a0-11d5-bbb2-00c04f79bea5</Guid>
+			<VersionMajor>1</VersionMajor>
+			<VersionMinor>0</VersionMinor>
+			<WrapperTool>tlbimp</WrapperTool>
+			<Lcid>0</Lcid>
+			<Isolated>false</Isolated>
+		</COMReference>
+		<COMReference Include="SolidEdgePart.dll">
+			<Guid>8a7efa42-f000-11d1-bdfc-080036b4d502</Guid>
+			<VersionMajor>1</VersionMajor>
+			<VersionMinor>0</VersionMinor>
+			<WrapperTool>tlbimp</WrapperTool>
+			<Lcid>0</Lcid>
+			<Isolated>false</Isolated>
+		</COMReference>
+		<COMReference Include="RevisionManager.dll">
+			<Guid>df778d1a-0aa4-11d1-bc6e-0800360e1e02</Guid>
+			<VersionMajor>1</VersionMajor>
+			<VersionMinor>0</VersionMinor>
+			<WrapperTool>tlbimp</WrapperTool>
+			<Lcid>0</Lcid>
+			<Isolated>false</Isolated>
+		</COMReference>
+		<COMReference Include="DesignManager.dll">
+			<Guid>427c71bd-b200-4421-ab49-12da610b369e</Guid>
+			<VersionMajor>1</VersionMajor>
+			<VersionMinor>0</VersionMinor>
+			<Lcid>0</Lcid>
+			<WrapperTool>tlbimp</WrapperTool>
+			<Isolated>false</Isolated>
+		</COMReference>
+	</ItemGroup>
+	
+	
   <ItemGroup>
     <ProjectReference Include="..\Interop.SolidEdge\Interop.SolidEdge.csproj" />
   </ItemGroup>
