@@ -93,12 +93,7 @@
       <Isolated>false</Isolated>
     </COMReference>
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="ILRepack" Version="2.0.13" />
-    <!-- marks all packages as 'local only' so they don't end up in the nuspec -->
-    <PackageReference Update="@(PackageReference)" PrivateAssets="All" />
-    <PackageReference Update="ILRepack" Version="2.0.16" />
-  </ItemGroup>
+
   <PropertyGroup>
     <AssemblyVersion>224.0.0.0</AssemblyVersion>
     <FileVersion>224.0.0.0</FileVersion>
